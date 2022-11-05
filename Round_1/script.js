@@ -19,3 +19,6 @@ const particles = Particles.init({
     }
   ]
 });
+
+// Not bad, Now you have 3rd flag: ctf{7eadb6fb4c0d9da4310e441f655af3e5} 
+// Next Hint: May the next flag can be obtained by console logs of this website.
