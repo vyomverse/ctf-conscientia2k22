@@ -13,8 +13,11 @@ def add(request):
     ip = ipware.get_client_ip(request)[0]
     #ip = request.
     val = request.GET['val']
-    if val in []
-    f = Flag(ip_addr = ip, flag = val)
+    if val in []:
+        valid = True
+    else:
+        valid = False
+    f = Flag(ip_addr = ip, flag = val, valid=valid)
     f.save()
     return HttpResponse(f'successfully added {ip} with flag {val}')
 
