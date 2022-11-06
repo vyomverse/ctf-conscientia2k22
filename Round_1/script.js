@@ -3,7 +3,7 @@ window.onload = function () {
     selector: ".background"
   });
   console.log('Not bad, Now you have 3rd flag: ctf{7eadb6fb4c0d9da4310e441f655af3e5}')
-  console.log('Hint: ')
+  console.log('Hint: The next flag is with robot of the website')
 };
 const particles = Particles.init({
   selector: ".background",
